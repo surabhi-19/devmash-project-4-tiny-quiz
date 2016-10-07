@@ -1,0 +1,48 @@
+html{
+	text-align: center;
+}
+h1{
+	font-size: 45px;
+	font-style: sans-serif;
+}
+.panel,.flip
+{
+  cursor: pointer;
+  padding:5px;
+  text-align:center;
+  background:#ebdde2;
+  border:solid 1px #c3c3c3;
+  width:140px;
+  border-radius: 5px;
+  border-spacing: 1px;
+}
+.panel
+{
+  display:none;
+}
+.question
+{
+  float:left;
+  font-style: oblique;
+}
+.row
+{
+  justify-content: space-between;
+  text-align: center;
+  padding-left: 20px;
+}
+.ques
+{
+  font-style: Comic sans-serif;
+  font-size: 35px;
+}
+.container
+{
+	margin: 50px auto;
+	background-color: #E5E4E2;
+	height: 575px;
+	width: 500px;
+	border-radius: 10px;
+	text-align: center;
+	padding: 10px;
+}

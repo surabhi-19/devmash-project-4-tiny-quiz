@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GAME!</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").hide();
+  });
+});
+
+$(document).ready(function(){
+  var a = $(".question");
+  a.each(function(index) {
+    var flip = $(this).find(".flip");
+    var panel = $(this).find(".panel");
+    flip.click(function(){
+      panel.slideDown("meduim");
+    });
+  });
+});
+</script>
+</head>
+<body>
+<h1><i>Quiz Time!!</i></h1>
+<div class="container">
+
+	<p class="ques">
+	<font color=#b87333>Q1:Man's best friend</font></p>
+	<div class="row">
+	<div class="question">
+ 	<div class="panel">Wrong</div>
+ 	<div class="flip">Cat</div>
+	</div>
+	<div class="question">
+ 	<div class="panel">Correct</div>
+ 	<div class="flip">Dog</div>
+	</div>
+	<div class="question">
+ 	<div class="panel">Wrong</div>
+ 	<div class="flip">Snake</div>
+	</div>
+	</div>
+
+    <br> <br> <br>
+	
+	<p class="ques">
+	<font color=#b87333>Q2:Entrance to a house</font></p>
+	<div class="row">
+	<div class="question">
+ 	<div class="panel">Correct</div>
+ 	<div class="flip">Door</div>
+	</div>
+	<div class="question">
+ 	<div class="panel">Wrong</div>
+ 	<div class="flip">Window</div>
+	</div>
+	<div class="question">
+ 	<div class="panel">Wrong</div>
+ 	<div class="flip">Terrace</div>
+	</div>
+	</div>
+
+	<br> <br> <br>
+
+	<p class="ques">
+	<font color=#b87333>Q3:Nutrition to the body</font></p>
+	<div class="row">
+	<div class="question">
+ 	<div class="panel">Wrong</div>
+ 	<div class="flip">Wood</div>
+	</div>
+	<div class="question">
+ 	<div class="panel">Wrong</div>
+ 	<div class="flip">Glass</div>
+	</div>
+	<div class="question">
+ 	<div class="panel">Correct</div>
+ 	<div class="flip">Food</div>
+	</div>
+	</div>
+</div>
+</body>
+</html>
+
+
+
+	
